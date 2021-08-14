@@ -17,4 +17,3 @@ BEGIN
 		WRITELN('           R1             R2             R1+R2');
 		WRITELN(r1,r2,realtotal);
 		END.
-		
