@@ -1,7 +1,6 @@
 PROGRAM MinChange(INPUT,OUTPUT);
 (*$B-*)
 VAR cash, no5cents, no1cents, INTEGER;
-
 BEGIN
 		READ(cash);
 		no5cents := cash DIV 5;
