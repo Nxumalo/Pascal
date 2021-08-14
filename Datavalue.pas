@@ -1,6 +1,7 @@
 PROGRAM Datavalue(input,output);
 (*$B-x*)
 VAR a,b,c,d,e,f,g,h,j,k,l,m : INTEGER;
+
 BEGIN
 		READ(a,b);
 		WRITELN('           A             B');
