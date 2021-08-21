@@ -12,6 +12,31 @@ PROGRAM AgeCount(input,output); (*$B-*);
   The program is terminated by reading a negative number *)
   
 VAR Over65Total, Over65Total : INTEGER;
-      
+    Age, SumOver60, AverageOver60 : REAL;
     
+    
+BEGIN
+      Over65Total := 0;
+      Over60Total := 0;
+      SumOver60 := 0.0;
+      
+      READ(Age);
+      WHILE Age >= 0.0 DO
+            BEGIN
+                  IF Age > 65.0 THEN Over65Total := Over65Total +1;
+                  IF Age > 60.0 THEN
+                                    BEGIN
+                                          Over60Total := Over60Total +1;
+                                          SumOver60 := SumOver60 + Age;
+                                          END;
+                  READ(Age)                        
+            END;
+      WRITELN('No. of people over 65 years = ', Over65Total :5);
+      WRITELN('No. of people over 60 years = ', Over60Total :5);
+      IF Over60Total > 0 THEN
+         BEGIN
+              AverageOver60 := SumOver60/Over60Total;
+              WRITELN('Av. age of people over 60 yrs = ', AverageOver60:6:1)
+         END     
+END.      
     
