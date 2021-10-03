@@ -1,4 +1,4 @@
-PROGRAM Table5(input,output);
+PROGRAM Table4(input,output);
    
 (* This program illustrates 2 loops, one insides another *) 
 
