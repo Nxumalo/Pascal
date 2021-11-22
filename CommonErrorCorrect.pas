@@ -1,4 +1,4 @@
-PROGRAM CommonError(input,output);
+PROGRAM CommonErrorCorrect(input,output);
 (*$B-*)
 (* This program illustrates -- CALL BY VALUE
    This concept is used to elimate the error shown *)
