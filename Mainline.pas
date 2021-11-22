@@ -2,7 +2,7 @@ PROGRAM Mainline(input,output);
 VAR a,b,c:INTEGER;
 	
 	PROCEDURE proc1;
-	VAR a,c:INTEGER;
+	VAR a, c:INTEGER;
 	
 		PROCEDURE proc2;
 		VAR b:INTEGER;
@@ -22,5 +22,5 @@ BEGIN (* main * )
    a:=1; b:=2; c:=3;
    proc1;
    WRITELN('  IN MAIN A, B & C=', a, b, c);
-END. (* main *)
+END (* main *)
 	
