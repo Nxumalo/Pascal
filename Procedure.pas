@@ -1,4 +1,4 @@
-PROCEDURE procedure name;
+PROCEDURE Procedure name;
 	BEGIN
 		statement 1;
 		statement 2;
