@@ -1,4 +1,4 @@
-PROGRAM Readch1(input,output);
+PROGRAM Read(input,output);
 (*$B-*)
 (* This program reads and prints 20 character names, At
 	least 20 charcters MUST be typed in on each line before
