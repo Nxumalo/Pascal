@@ -61,9 +61,13 @@ VAR hrs1, hrs2, diffhrs,
 			
 	  BEGIN
 	    converttosecs(hr1,min1,sec1,timeinsecs1);
+	WRITELN('TIME1  ',hr1:5min1:3,sec1:9:2,timeinsecs1:9:2);
 	    converttosecs(hr2,min2,sec2,timeinsecs2);
+	WRITELN('TIME2  ',hr2:5,min2:3,sec2:sec2:9:2,timeinsecs2:9:2);
 	    difference(timeinsecs1,timeinsecs2,diffinsecs);
+	WRITELN('DIFF  ',timeinsecs1:9:2,timeinsecs:9:2,diffinsecs:9:2);
 	    changetohrsminssecs(diffinsecs,diffhr,diffmin,diffsec);
+	WRITELN('RESULT  ',diffinsecs:9:2,diffhr:5,diffmin:3,diffsec:9:2);
 	  END;
 
      PROCEDURE writetime(hr,min:INTEGER;sec:REAL);
