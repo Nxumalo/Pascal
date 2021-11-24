@@ -1,4 +1,4 @@
-PROGRAM Timedifference(input,output); (*$B-*)
+PROGRAM TimeDifference(input,output); (*$B-*)
 (*This program illustrates RECORDS and operations on records *)
 
 TYPE time = RECORD
@@ -60,18 +60,3 @@ BEGIN
 END.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
