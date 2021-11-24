@@ -1,4 +1,4 @@
-PROGRAM Timediff(input,output);
+PROGRAM TimeDiff(input,output);
 (*$B-*)
 VAR hrs1, hrs2, diffhrs,
     mins1, mins2, diffmins :INTEGER;
