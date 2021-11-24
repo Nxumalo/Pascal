@@ -1,5 +1,5 @@
 AN INTRODUCTION TO 
-PASCAL PROGRAMMING
+PASCAL PROGRAMMING 
 	
 	Ch1 INTRODUCTION
 	
@@ -1247,7 +1247,7 @@ PASCAL PROGRAMMING
 			VAR ........;
 			BEGIN
 
-				ASSIGN(datafile, ´b:x.y ´);
+				ASSIGN(datafile,Â Â´b:x.yÂ Â´);
 				REWRITE(datafile);
 			END;
 
