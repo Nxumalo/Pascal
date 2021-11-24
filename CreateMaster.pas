@@ -42,17 +42,3 @@ BEGIN
 	CLOSE(datamaster);
 END.	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
