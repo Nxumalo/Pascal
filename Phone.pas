@@ -57,16 +57,3 @@ VAR subscriber:ARRAY[1...5] OF ntry;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
