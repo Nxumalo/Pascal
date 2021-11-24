@@ -1,4 +1,4 @@
-PROGRAM Weeklysalary(input,output);(*$B-*)
+PROGRAM WeeklySalary(input,output);(*$B-*)
 (*This program illustrates USER-DEFINED TYPES *)
 (* Employees are paid every Monday for the no. of 
  	hours they worked during the previous 7 days
@@ -52,45 +52,6 @@ BEGIN
 	     READ(employeeno);
 	END;
 END.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
