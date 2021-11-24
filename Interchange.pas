@@ -1,4 +1,4 @@
-PROGRAM Interchange(input,output);
+PROGRAM InterChange(input,output);
 (*$B-*)
 (* This program illustrates variables defined
 	inside a procedure 	*)
