@@ -221,7 +221,7 @@ PASCAL PROGRAMMING
 		   | 20| 14| 3 |    x := x + x + b     | 43| 14| 3 |
 		    -----------                         -----------
 
-	Ch3 INPUT/OUTPUT	1
+|	#Ch3 INPUT/OUTPUT	1
 
 		3.1 INPUT COMMANDS
 			
@@ -335,7 +335,7 @@ PASCAL PROGRAMMING
 			FraserNxumalo	|	BEGIN
 			harmony176	|	my name	
 		
-	#Ch5 ARITEMATIC EXPRESSIONS
+|	#Ch5 ARITEMATIC EXPRESSIONS
 	
 		5.1 ARITHMETIC OPERATORS
 
