@@ -2,7 +2,7 @@
 AN INTRODUCTION TO 
 PASCAL PROGRAMMING
 	
-|	#Ch1 INTRODUCTION
+|	Ch1 INTRODUCTION
 	
 		1.1 INTRODUCTION
 			
@@ -184,7 +184,7 @@ PASCAL PROGRAMMING
 			PROGRAM-WRITER must detect and correct this type of error.
 
  
-  |     # Ch2 ASSIGNMENT STATEMENTS
+  |     Ch2 ASSIGNMENT STATEMENTS
 
 		2.1 ASSIGNMENT OF VALUES TO VARIABLES
 	
@@ -221,7 +221,7 @@ PASCAL PROGRAMMING
 		   | 20| 14| 3 |    x := x + x + b     | 43| 14| 3 |
 		    -----------                         -----------
 
-|	#Ch3 INPUT/OUTPUT	1
+|	Ch3 INPUT/OUTPUT	1
 
 		3.1 INPUT COMMANDS
 			
@@ -275,7 +275,7 @@ PASCAL PROGRAMMING
 |		CHANGES IN THE DESIGN					          		|
  -----------------------------------------------------------------------------------------------
  
- |       #Ch4 INTEGERS AND REAL VARIABLES 
+ |       Ch4 INTEGERS AND REAL VARIABLES 
 
 		4.1 INTEGERS
 
@@ -335,7 +335,7 @@ PASCAL PROGRAMMING
 			FraserNxumalo	|	BEGIN
 			harmony176	|	my name	
 		
-|	#Ch5 ARITEMATIC EXPRESSIONS
+|	Ch5 ARITEMATIC EXPRESSIONS
 	
 		5.1 ARITHMETIC OPERATORS
 
@@ -388,7 +388,7 @@ PASCAL PROGRAMMING
 		
  		
  
-|	#Ch6 COMMENTS
+|	Ch6 COMMENTS
 		
 		6.1 COMMENTS
 
@@ -406,7 +406,7 @@ PASCAL PROGRAMMING
 			as many lines as may be required *)
 		
 		
-      #  Ch7 INPUT/OUTPUT	2
+|      Ch7 INPUT/OUTPUT	2
 
 		7.1 READ and WRITELN
 
@@ -424,7 +424,7 @@ PASCAL PROGRAMMING
 				WRITELN(a,b,total);
 			END.
 		
-	#Ch8 HOW TO WRITE AND TEST A SIMPLE PROGRAM
+|	Ch8 HOW TO WRITE AND TEST A SIMPLE PROGRAM
 
 		8.1 DEBUGGING A PROGRAM
 
@@ -477,7 +477,7 @@ PASCAL PROGRAMMING
 
 		 
 			
-	#Ch9 LOOPS
+|	Ch9 LOOPS
 
 		9.1 INTRODUCTION
 
@@ -640,7 +640,7 @@ PASCAL PROGRAMMING
 
 
 		
-|	#Ch10 WRITE AND READLN STATEMENTS
+|	Ch10 WRITE AND READLN STATEMENTS
 
 		10.1 MORE ABOUT THE WRITELN STATEMENT
 
@@ -673,7 +673,7 @@ PASCAL PROGRAMMING
 
 			(3) Go to the beginning of the next line.
 
-|	#Ch11 ALTERNATIVE STATEMENTS
+|	Ch11 ALTERNATIVE STATEMENTS
 
 		11. INTRODUCTION
 
@@ -811,7 +811,7 @@ PASCAL PROGRAMMING
 											|
 											|
 
-|	#Ch12	CONSTANTS
+|	Ch12	CONSTANTS
 
 		12.1 CONSTANTS
 			
@@ -831,7 +831,7 @@ PASCAL PROGRAMMING
 				    of the '='. In this example 'pi' is a REAL and
 				    max and min are both INTEGER.
 
-|	#Ch13	ARRAYS
+|	Ch13	ARRAYS
 
 		13.1 DEFINITION OF ARRAYS
 
@@ -916,7 +916,7 @@ PASCAL PROGRAMMING
 			     1 3 3 1   			1 3 3 1 0
 			    1 3 6 3 1   		1 3 6 3 1
 
-|	#Ch14 BOOLEAN VARIABLES
+|	Ch14 BOOLEAN VARIABLES
 
 		14.1 BOOLEAN VARIABLES
 
@@ -930,7 +930,7 @@ PASCAL PROGRAMMING
 			Boolean variables can be used to solve Boolean Algebra type problems.
 
 
-|	#Ch15 CHARACTERS
+|	Ch15 CHARACTERS
 
 		15.1 CHARACTERS
 
@@ -957,7 +957,7 @@ PASCAL PROGRAMMING
 			    	argument any integer value and returns the character that is 
 				represented by that specific bit pattern.
 
-|	#Ch16 PROCEDURE
+|	Ch16 PROCEDURE
 		
 		16.1 PROCEDURE
 			
@@ -1061,7 +1061,7 @@ PASCAL PROGRAMMING
 				END;
 
 			
-|	#Ch17	FUNCTION 
+|	Ch17	FUNCTION 
 
 		17.1 INTRODUCTION
 
@@ -1083,7 +1083,7 @@ PASCAL PROGRAMMING
 				function-name := result of the computation
 			END;
 
-	#Ch18	SCOPE OF VARIABLES
+|	Ch18	SCOPE OF VARIABLES
 
 		18.1 STACKS
 
@@ -1113,7 +1113,7 @@ PASCAL PROGRAMMING
 					       	   ---->     a |        |
 								--------
 
-|	#Ch19	TOP-DOWN DESIGN OF A PROGRAM 
+|	Ch19	TOP-DOWN DESIGN OF A PROGRAM 
 
 				DIVIDE ET IMPERA
 				
@@ -1151,10 +1151,10 @@ PASCAL PROGRAMMING
 							  .........
 							  .........
              						  .........
- --------------------------------------------------------------------------------------------
-|				Ch4 ALTERNATIVE STATEMENTS				     |
-|				Ch5 REPETATIVE STATEMENTS				     |
- --------------------------------------------------------------------------------------------
+
+				Ch4 ALTERNATIVE STATEMENTS				     
+				Ch5 REPETATIVE STATEMENTS				     
+
 				
 				Ch6 PROCEDURES
 				Ch7 FILES
@@ -1164,7 +1164,7 @@ PASCAL PROGRAMMING
 
 			'Debug'		
 
-|	#Ch20 USER DEFINED TYPES
+|	Ch20 USER DEFINED TYPES
 
 		20.1 TYPE STATEMENTS
 
@@ -1191,7 +1191,7 @@ PASCAL PROGRAMMING
 
 			PROCEDURE pass(a:INTEGER: VAR b:REAL);
 
-|	#Ch21	RECORDS 
+|	Ch21	RECORDS 
 
 		21.1 RECORDS
 
@@ -1210,7 +1210,7 @@ PASCAL PROGRAMMING
 					secs: REAL;
 				    END;
 
-|	#Ch22 	FILES
+|	Ch22 	FILES
 
 		22.1 INTRODUCTION AND RATIONALE FOR FILES
 
